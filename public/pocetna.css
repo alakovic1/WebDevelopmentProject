@@ -1,0 +1,113 @@
+.meni{
+ background-color: rgb(102, 179, 255);
+ margin: 0 auto;
+ width: 1000px;
+ height: 120px;
+ margin-top: 3%;
+ position: relative;
+ text-align: center;
+ font-size: 20px;
+} 
+.meni li{
+ display: inline-block;
+ margin-right: 5%;
+ align-items: center;
+ position: relative;
+} 
+a{
+  color: black;
+}
+#pocetna{
+  text-decoration: none;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  height: 50px;
+  margin-right: auto;
+  transform: translateY(-50%);
+}
+#slika{
+  width: 100px;
+}
+.sadrzaj{
+  background-color: rgb(102, 179, 255);
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+  height: 320px;
+  margin-top: 1%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  position: absolute;
+  grid-gap: 25px;
+  justify-content: center;
+}
+.slika{
+  height: 200px;
+  width: 300px;
+  padding: 10px 5px;
+}
+.dugme {
+  background-color: rgb(26, 117, 255);
+  border-color: rgb(191, 191, 191);
+  border-width: 1px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.dPret{
+  position: absolute;
+  left: 242px;
+  bottom: 25px;
+}
+.dSljed{
+  position: absolute;
+  right: 242px;
+  bottom: 25px;
+}
+@media only screen and (max-width: 960px){
+	.grid{
+		grid-template-columns: repeat(2,300px);
+	}
+  .sadrzaj{
+    height: 1250px;
+  }
+}
+@media only screen and (max-width: 645px){
+	.grid{
+		grid-template-columns: repeat(1,250px);
+	}
+  .sadrzaj{
+    height: 2450px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .meni li{
+    display: block; 
+  }
+  .meni{
+    text-align: left;
+    height: 210px;
+  }
+  .logo{
+    text-align: center;
+  }
+  .grid{
+    justify-content: left;
+    margin-left: 50px;
+  }
+  .slika{
+    width: 240px;
+    height: 160px;
+  }
+  .sadrzaj{
+    height: 2060px;
+  }
+}

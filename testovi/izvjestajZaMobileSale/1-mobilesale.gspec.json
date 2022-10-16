@@ -1,0 +1,443 @@
+{
+  "testId" : "1-mobilesale.gspec",
+  "name" : "mobileSale.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mobileSale.gspec --url http://localhost:8080/sale.html --size 580x768 --htmlreport izvjestajZaMobileSale",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mobileSale.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573646659686,
+          "sections" : [ {
+            "name" : "Logo section",
+            "place" : {
+              "filePath" : "mobileSale.gspec",
+              "lineNumber" : 15
+            },
+            "objects" : [ {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "aligned vertically centered logo",
+                "highlight" : [ "logo", "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Meni section",
+            "place" : {
+              "filePath" : "mobileSale.gspec",
+              "lineNumber" : 20
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "above sadrzaj",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "6px"
+                } ],
+                "highlight" : [ "meni", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "aligned vertically centered meni",
+                "highlight" : [ "meni", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "width 1000px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1000px",
+                  "realDistance" : "1000px"
+                } ],
+                "highlight" : [ "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "height 210px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "210px",
+                  "realDistance" : "210px"
+                } ],
+                "highlight" : [ "meni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Sadrzaj section",
+            "place" : {
+              "filePath" : "mobileSale.gspec",
+              "lineNumber" : 27
+            },
+            "objects" : [ {
+              "name" : "sadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "below meni",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "6px"
+                } ],
+                "highlight" : [ "sadrzaj", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "width 1000px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1000px",
+                  "realDistance" : "1000px"
+                } ],
+                "highlight" : [ "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "height 350px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "350px",
+                  "realDistance" : "350px"
+                } ],
+                "highlight" : [ "sadrzaj" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Tabela section",
+            "place" : {
+              "filePath" : "mobileSale.gspec",
+              "lineNumber" : 33
+            },
+            "objects" : [ {
+              "name" : "tabelaSala",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "inside sadrzaj",
+                "meta" : [ ],
+                "highlight" : [ "tabelaSala", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "aligned vertically left tabelaSala",
+                "highlight" : [ "tabelaSala", "tabelaSala" ]
+              } ]
+            }, {
+              "name" : "headerSprat",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "absent",
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "headerRedni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "absent",
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "sala",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "inside tabelaSala",
+                "meta" : [ ],
+                "highlight" : [ "sala", "tabelaSala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "aligned horizontally top sala",
+                "highlight" : [ "sala", "sala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "aligned vertically left sala",
+                "highlight" : [ "sala", "sala" ]
+              } ]
+            }, {
+              "name" : "zauzetaSala",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "inside sala",
+                "meta" : [ ],
+                "highlight" : [ "zauzetaSala", "sala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "inside tabelaSala",
+                "meta" : [ ],
+                "highlight" : [ "zauzetaSala", "tabelaSala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "inside sadrzaj",
+                "meta" : [ ],
+                "highlight" : [ "zauzetaSala", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "width 100px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "zauzetaSala",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "zauzetaSala",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "100px",
+                  "realDistance" : "100px"
+                } ],
+                "highlight" : [ "zauzetaSala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "height 30px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "zauzetaSala",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "zauzetaSala",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "30px",
+                  "realDistance" : "30px"
+                } ],
+                "highlight" : [ "zauzetaSala" ]
+              } ]
+            }, {
+              "name" : "slobodnaSala",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "inside tabelaSala",
+                "meta" : [ ],
+                "highlight" : [ "slobodnaSala", "tabelaSala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "inside sadrzaj",
+                "meta" : [ ],
+                "highlight" : [ "slobodnaSala", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "width 100px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slobodnaSala",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slobodnaSala",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "100px",
+                  "realDistance" : "100px"
+                } ],
+                "highlight" : [ "slobodnaSala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 55
+                },
+                "name" : "height 30px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slobodnaSala",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slobodnaSala",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "30px",
+                  "realDistance" : "30px"
+                } ],
+                "highlight" : [ "slobodnaSala" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 8, 16, 1000, 210 ]
+            },
+            "zauzetaSala" : {
+              "area" : [ 28, 268, 100, 30 ]
+            },
+            "sala" : {
+              "area" : [ 28, 268, 100, 30 ]
+            },
+            "logo" : {
+              "area" : [ 8, -8, 1000, 50 ]
+            },
+            "sadrzaj" : {
+              "area" : [ 8, 232, 1000, 350 ]
+            },
+            "tabelaSala" : {
+              "area" : [ 28, 268, 500, 271 ]
+            },
+            "slobodnaSala" : {
+              "area" : [ 428, 268, 100, 30 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573646657281,
+        "type" : "node"
+      } ],
+      "time" : 1573646655015,
+      "type" : "node"
+    } ]
+  }
+}

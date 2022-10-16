@@ -1,0 +1,81 @@
+@objects
+	meni .meni
+	logo .logo
+	meniLi .meni li
+	sadrzaj .sadrzaj
+    labelaSala #labelaSala
+    sveSale .sveSale
+    labelaPeriodicnost #labelaPeriodicnost
+    checkBox input[type=checkbox]
+    labelaVrijeme #labelaVrijeme
+    pocetak #pocetak
+    kraj #kraj
+    dugme .dugme
+    dPret .dPret
+    dSljed .dSljed
+    kalendar .kalendar
+    tekst .tekst
+    dan .dan
+    unutrasnjaTabela .unutrasnjaTabela
+
+= Logo section =
+    logo:
+        above meni -25px
+        aligned vertically centered logo
+        above meniLi
+
+= Meni section =
+    meniLi:
+        inside meni
+        aligned vertically centered meniLi
+        below logo
+
+= Labela section =
+    labelaSala:
+        inside sadrzaj
+        left-of sveSale
+    labelaPeriodicnost:
+        inside sadrzaj
+        left-of checkBox
+    labelaVrijeme:
+        inside sadrzaj
+        left-of pocetak
+        left-of kraj
+
+= Input section =
+    pocetak:
+        inside sadrzaj
+        right-of labelaVrijeme
+    kraj:
+        inside sadrzaj
+        right-of labelaVrijeme
+    checkBox:
+        right-of labelaPeriodicnost
+
+= Sale section =
+    sveSale:
+        inside sadrzaj
+
+= Dugme section =
+    dugme:
+        inside sadrzaj
+        below kalendar
+    dPret:
+        above sadrzaj -565px
+    dSljed:
+        above sadrzaj -565px
+
+= Kalendar section = 
+    kalendar:
+        inside sadrzaj
+    tekst:
+        inside kalendar
+        text is "Novembar"
+        css font-family contains "Arial"
+    dan:
+        inside kalendar
+    unutrasnjaTabela:
+        inside kalendar
+
+
+

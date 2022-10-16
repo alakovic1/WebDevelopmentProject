@@ -1,0 +1,47 @@
+@on mobile
+    screen: 
+        width < 601px
+@objects
+	meni .meni
+	logo .logo
+	sadrzaj .sadrzaj
+    input input
+    labela label
+
+= Logo section =
+    logo:
+        aligned vertically centered logo
+        height 50px
+
+= Meni section =
+    meni:
+        above sadrzaj
+        aligned vertically centered meni
+        width 1000px
+        height 210px
+
+= Sadrzaj section=
+        sadrzaj:
+            below meni
+            width 1000px
+            height 500px
+
+= Input section =
+    input:
+        inside sadrzaj
+        aligned vertically centered input
+        below labela
+        height 26px
+        width 206px
+
+= Labela section =
+    labela:
+        inside sadrzaj
+        aligned vertically centered labela
+        above input
+        css font-size is "18px"
+        height 30px
+        width 159px
+
+
+

@@ -1,0 +1,423 @@
+{
+  "testId" : "1-mobilepocetna.gspec",
+  "name" : "mobilePocetna.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Mutation test",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mobilePocetna.gspec --url http://localhost:8080/pocetna.html --size 580x768 --offset 5 --htmlreport mutationZaMobilePocetnu",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mobilePocetna.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573646816306,
+          "sections" : [ {
+            "name" : "Logo section",
+            "place" : {
+              "filePath" : "mobilePocetna.gspec",
+              "lineNumber" : 11
+            },
+            "objects" : [ {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "aligned vertically centered logo",
+                "highlight" : [ "logo", "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Meni section",
+            "place" : {
+              "filePath" : "mobilePocetna.gspec",
+              "lineNumber" : 16
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "above sadrzaj",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "6px"
+                } ],
+                "highlight" : [ "meni", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "aligned vertically centered meni",
+                "highlight" : [ "meni", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "width 1000px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1000px",
+                  "realDistance" : "1000px"
+                } ],
+                "highlight" : [ "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "height 210px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "210px",
+                  "realDistance" : "210px"
+                } ],
+                "highlight" : [ "meni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Sadrzaj section",
+            "place" : {
+              "filePath" : "mobilePocetna.gspec",
+              "lineNumber" : 23
+            },
+            "objects" : [ {
+              "name" : "sadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "below meni",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "6px"
+                } ],
+                "highlight" : [ "sadrzaj", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "width 1000px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1000px",
+                  "realDistance" : "1000px"
+                } ],
+                "highlight" : [ "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "height 2060px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "2060px",
+                  "realDistance" : "2060px"
+                } ],
+                "highlight" : [ "sadrzaj" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Slike section",
+            "place" : {
+              "filePath" : "mobilePocetna.gspec",
+              "lineNumber" : 29
+            },
+            "objects" : [ {
+              "name" : "grid",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "inside sadrzaj",
+                "meta" : [ ],
+                "highlight" : [ "grid", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "below meni",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grid",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "6px"
+                } ],
+                "highlight" : [ "grid", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "aligned vertically centered grid",
+                "highlight" : [ "grid", "grid" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "height 2045px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grid",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "grid",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "2045px",
+                  "realDistance" : "2045px"
+                } ],
+                "highlight" : [ "grid" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "width 270px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grid",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "grid",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "270px",
+                  "realDistance" : "270px"
+                } ],
+                "highlight" : [ "grid" ]
+              } ]
+            }, {
+              "name" : "slika",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "inside grid",
+                "meta" : [ ],
+                "highlight" : [ "slika", "grid" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "inside sadrzaj",
+                "meta" : [ ],
+                "highlight" : [ "slika", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "aligned vertically centered slika",
+                "highlight" : [ "slika", "slika" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "height 180px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slika",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slika",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "180px",
+                  "realDistance" : "180px"
+                } ],
+                "highlight" : [ "slika" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "width 250px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slika",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slika",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "250px",
+                  "realDistance" : "250px"
+                } ],
+                "highlight" : [ "slika" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 8, 16, 1000, 210 ]
+            },
+            "slika" : {
+              "area" : [ 68, 242, 250, 180 ]
+            },
+            "grid" : {
+              "area" : [ 58, 232, 270, 2045 ]
+            },
+            "logo" : {
+              "area" : [ 8, -8, 1000, 50 ]
+            },
+            "sadrzaj" : {
+              "area" : [ 8, 232, 1000, 2060 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        }, {
+          "name" : "Mutation testing: mobilePocetna.gspec included tags: ",
+          "status" : "error",
+          "time" : 1573646816306,
+          "mutationReport" : {
+            "objectMutationStatistics" : {
+              "meni" : {
+                "passed" : 6,
+                "failed" : 4,
+                "failedMutations" : [ "meni: drag left by 5px", "meni: drag right by 5px", "meni: drag top by 5px", "meni: drag down by 5px" ]
+              },
+              "slika" : {
+                "passed" : 6,
+                "failed" : 4,
+                "failedMutations" : [ "slika: drag left by 5px", "slika: drag right by 5px", "slika: drag top by 5px", "slika: drag down by 5px" ]
+              },
+              "grid" : {
+                "passed" : 7,
+                "failed" : 3,
+                "failedMutations" : [ "grid: drag left by 5px", "grid: drag right by 5px", "grid: drag down by 5px" ]
+              },
+              "logo" : {
+                "passed" : 3,
+                "failed" : 7,
+                "failedMutations" : [ "logo: drag left by 5px", "logo: drag right by 5px", "logo: drag top by 5px", "logo: drag down by 5px", "logo: increase width by 5px", "logo: decrease width by 5px", "logo: move left edge right by 5px" ]
+              },
+              "sadrzaj" : {
+                "passed" : 7,
+                "failed" : 3,
+                "failedMutations" : [ "sadrzaj: drag left by 5px", "sadrzaj: drag right by 5px", "sadrzaj: drag top by 5px" ]
+              }
+            },
+            "totalPassed" : 29,
+            "totalFailed" : 21,
+            "totalMutations" : 50,
+            "failedRatio" : 42.0
+          },
+          "type" : "mutation"
+        } ],
+        "time" : 1573646813149,
+        "type" : "node"
+      } ],
+      "time" : 1573646810874,
+      "type" : "node"
+    } ]
+  }
+}

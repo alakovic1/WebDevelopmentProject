@@ -1,0 +1,55 @@
+@on mobile
+    screen: 
+        width < 601px
+@objects
+	meni .meni
+	logo .logo
+	sadrzaj .sadrzaj
+	tabelaSala .tabelaSala
+	headerSprat .headerSprat
+	headerRedni .headerRedni
+	sala .sala
+    zauzetaSala .zauzetaSala
+    slobodnaSala .slobodnaSala
+
+= Logo section =
+        logo:
+            aligned vertically centered logo
+            height 50px
+
+= Meni section =
+        meni:
+            above sadrzaj
+            aligned vertically centered meni
+            width 1000px
+            height 210px
+
+= Sadrzaj section=
+        sadrzaj:
+            below meni
+            width 1000px
+            height 350px
+
+= Tabela section =
+        tabelaSala:
+        	inside sadrzaj
+            aligned vertically left tabelaSala
+        headerSprat:
+        	absent
+        headerRedni:
+        	absent
+        sala:
+            inside tabelaSala
+            aligned horizontally top sala
+            aligned vertically left sala
+        zauzetaSala:
+            inside sala
+            inside tabelaSala
+            inside sadrzaj
+            width 100px
+            height 30px
+        slobodnaSala:
+            inside tabelaSala
+            inside sadrzaj
+            width 100px
+            height 30px

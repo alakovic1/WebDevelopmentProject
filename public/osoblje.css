@@ -1,0 +1,48 @@
+.meni{
+ background-color: rgb(102, 179, 255);
+ margin: 0 auto;
+ width: 1000px;
+ height: 120px;
+ margin-top: 3%;
+ position: relative;
+ text-align: center;
+ font-size: 20px;
+} 
+.meni li{
+ display: inline-block;
+ margin-right: 5%;
+ align-items: center;
+ position: relative;
+} 
+a{
+  color: black;
+}
+#osoblje{
+  text-decoration: none;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  height: 50px;
+  margin-right: auto;
+  transform: translateY(-50%);
+}
+#slika{
+  width: 100px;
+}
+.sadrzaj{
+  background-color: rgb(102, 179, 255);
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  margin-top: 1%;
+}
+.tabelaOsoblje{
+   text-align: center;
+   margin: 0 auto;
+   width: 50%; 
+}
+.tabelaOsoblje td{
+  border: 1px solid grey;
+}

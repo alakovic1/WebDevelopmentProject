@@ -1,0 +1,12 @@
+1. Prvo ukucajte npm install da bi instalirali sve pakete
+
+2. Pokretanje se vrši pomoću node index.js
+
+3. U slučaju da Vaš port za bazu nije 3306 (kao kod mene) potrebno je da promijenite u kodu na Vaš port, u db.js u 3. liniji
+
+4. Ako dođe do izbacivanja errora prilikom pokretanja node index.js zbog nemogućnosti kreiranja neke tabele zbog fk, potrebno je samo ponovo pokrenuti node i trebalo bi raditi
+
+5. Pošto su testovi napisani preko supertestova, status će se prikazivati u konzoli. Da bi pokrenuli testove potrebno je prvo da opet pokrenete node index.js (obratiti pažnju na slučaj 4, ako dođe do greške) i prekinete, te nakon toga trebate zakomentarisati linije 12-18 (db.sequelize.sync) u indexu i u konzoli ukucati npm test
+Ima napisanih 11 testova, od kojih svi prolaze, ali samo prilikom prvog pokretanja. Svako sljedeće pokretanje testova će dovesti do pada nekih zbog ažuriranja baze. Ako želite opet pokrenuti testove morate odkomentarisati navedene linije, te ponoviti tačku 5.
+Kod za testove se nalazi u test.js (js koji nije u public folderu)
+Za testove su potrebni supertest, mocha i assert paketi koji će se instalirati sa npm install

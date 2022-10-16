@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8" />
+   <title>Mocha Tests</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+   <link rel="stylesheet" type="text/css" href="rezervacija.css">
+   <style>
+   td{
+     border: 1px solid black;
+     height: 20px;
+     width: 20px;
+   }
+   </style>
+ </head>
+ <body>
+  <div class="sadrzaj">
+  <br>
+  <label id="labelaSala">Izaberite salu:</label>
+  <div id = "divUnosa">
+   <div>
+        <select class="sveSale">
+          <option value="0-01">0-01</option>
+          <option value="0-02">0-02</option>
+          <option value="0-03">0-03</option>
+          <option value="0-04">0-04</option>
+          <option value="0-05">0-05</option>
+          <option value="0-06">0-06</option>
+          <option value="0-07">0-07</option>
+          <option value="0-08">0-08</option>
+          <option value="0-09">0-09</option>
+          <option value="1-01">1-01</option>
+          <option value="1-02">1-02</option>
+          <option value="1-03">1-03</option>
+          <option value="1-04">1-04</option>
+          <option value="1-05">1-05</option>
+          <option value="1-06">1-06</option>
+          <option value="1-07">1-07</option>
+          <option value="1-08">1-08</option>
+          <option value="1-09">1-09</option>
+          <option value="VA1">VA1</option>
+          <option value="VA2">VA2</option>
+          <option value="MA">MA</option>
+          <option value="EE1">EE1</option>
+          <option value="EE2">EE2</option>
+        </select>
+     </div> 
+     <br>
+     <label id="labelaPeriodicnost">Periodična rezervacija (check ako da)</label>
+     <input type="checkbox" name="pariodicna" value="periodicna"> 
+     <br>
+     <label id="labelaVrijeme">Početak</label>
+     <input type="time" name="pocetak" id="pocetak">
+     <label id="labelaVrijeme">Kraj</label>
+     <input type="time" name="kraj" id="kraj">
+     <br>
+   </div>
+   <div id="ispis"></div>
+   <div id="mocha"></div>
+   <div class = "kalendar">
+     <table></table>
+   </div>
+ </div>
+   <script src="https://unpkg.com/chai/chai.js"></script>
+   <script src="https://unpkg.com/mocha/mocha.js"></script>
+ 
+   <script class="mocha-init">
+     mocha.setup('bdd');
+     mocha.checkLeaks();
+   </script>
+   <script src="kalendar.js"></script>
+   <script src="test.js"></script>
+   <script class="mocha-exec">
+     mocha.run();
+   </script>
+ </body>
+</html>

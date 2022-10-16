@@ -1,0 +1,39 @@
+@objects
+	meni .meni
+	logo .logo
+	sadrzaj .sadrzaj
+    grid .grid
+    slika .slika
+
+= Logo section =
+    logo:
+        above meni -25px
+        aligned vertically centered logo
+        height 50px
+
+= Meni section =
+    meni:
+        above sadrzaj
+        aligned vertically centered meni
+        width 1000px
+        height 120px
+
+= Sadrzaj section=
+    sadrzaj:
+        below meni
+        width 1000px
+        height 975px
+
+= Slike section = 
+    grid:
+        inside sadrzaj
+        below meni
+        aligned vertically centered grid
+        height 975px
+        width 1000px
+    slika:
+        inside grid
+        inside sadrzaj
+        aligned vertically centered slika
+        height 220px
+        width 310px

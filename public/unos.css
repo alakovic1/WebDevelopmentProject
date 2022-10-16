@@ -1,0 +1,86 @@
+.meni{
+ background-color: rgb(102, 179, 255);
+ margin: 0 auto;
+ width: 1000px;
+ height: 120px;
+ margin-top: 3%;
+ position: relative;
+ text-align: center;
+ font-size: 20px;
+} 
+.meni li{
+ display: inline-block;
+ margin-right: 5%;
+ align-items: center;
+ position: relative;
+} 
+a{
+  color: black;
+}
+#unos{
+  text-decoration: none;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  height: 50px;
+  margin-right: auto;
+  transform: translateY(-50%);
+}
+#slika{
+  width: 100px;
+}
+.sadrzaj{
+  background-color: rgb(102, 179, 255);
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+  height: 420px;
+  margin-top: 1%;
+}
+input{
+	display: block;
+	width: 200px;
+	height: 20px;
+}
+input[type=submit] {
+	font-size: 16px;
+}
+label {
+    float: left;
+    margin-left: 180px;
+    padding: 4px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+  .meni li{
+    display: block; 
+  }
+  .meni{
+    text-align: left;
+    height: 210px;
+  }
+  .logo{
+    text-align: center;
+  }
+  .sadrzaj{
+    height: 500px;
+  }
+  input{
+    float: left;
+    margin-left: 20px;
+  }
+  p{
+    display: inline-block;
+  }
+  label {
+    float: left;
+    margin-left: 20px;
+    padding: 4px;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+  }
+}

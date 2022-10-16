@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "mobilePocetna.gspec",
+    "startedAt" : 1573646810870,
+    "endedAt" : 1573646816390,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 19,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 20
+    },
+    "testId" : "1-mobilepocetna.gspec",
+    "duration" : 5520,
+    "failed" : true
+  } ]
+}
